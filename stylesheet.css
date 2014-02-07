@@ -1,4 +1,4 @@
-body {
+body.canvas {
 	background-color:#EFEEF3;
 }
 
@@ -10,7 +10,7 @@ body {
 	border-radius: 4px;
 	
 }
-#bar_image {
+#title_bar {
 	height:150px;
 	width:1280px;
 }
@@ -28,11 +28,11 @@ body {
 	padding:0;
 	overflow:hidden;
 }
-li {
+li.navbutton {
 	display:inline;
 	float:left;
 }
-a:link, a:visited {
+a.navlink:link, a.navlink:visited {
 	display:block;
 	width:100px;
 	height:20px;
@@ -43,8 +43,12 @@ a:link, a:visited {
 	text-decoration:none;
 	padding:4px;
 }
-a:hover,a:active {
+a.navlink:hover,a.navlink:active {
 	background-color:#A9A9A9;
+}
+#teambutton {
+	display:inline;
+	float:right;
 }
 
 #tempimage {
@@ -58,13 +62,12 @@ a:hover,a:active {
 #socialbox {
 	display:inline-block;
 	width:150px;
-				height:150px;
-				background-color:#D1D1D1;
-				float:right;
-				margin: 8px;
-				border-radius: 3px;
+	height:150px;
+	background-color:#D1D1D1;
+	float:right;
+	margin: 8px;
+	border-radius: 3px;
 }
-
 #content {
 	margin:4px;
 	display:inline-block;
@@ -93,4 +96,28 @@ a:hover,a:active {
 	padding-right:45px;
 	height: 20px;
 	width:60px;
-}			
+}
+#profile_image {
+	display:inline-block;
+	margin:8px;
+	height:134px;
+	height:134px;
+	overflow: hidden;
+}
+#sponsorbox {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background-color: #D1D1D1;
+	float:right;
+	margin: 8px;
+	border-radius: 3px;
+}
+li.sponsor {
+	font-size: 14px;
+	margin-top: 6px;
+}
+#sponsorlist {
+	margin-top:8px;
+	margin-bottom:8px;
+}
