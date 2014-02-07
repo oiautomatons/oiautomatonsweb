@@ -1,0 +1,96 @@
+body {
+	background-color:#EFEEF3;
+}
+
+#page {
+	height:1024px;
+	width:1280px;
+	margin:auto;
+	background-color:white;
+	border-radius: 4px;
+	
+}
+#bar_image {
+	height:150px;
+	width:1280px;
+}
+#nav_bar {
+	height:28px;
+	width:1272px;
+	margin:4px;
+	overflow:hidden;
+	border-radius: 3px;
+	background-color:#D1D1D1;
+}
+#navbar {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+li {
+	display:inline;
+	float:left;
+}
+a:link, a:visited {
+	display:block;
+	width:100px;
+	height:20px;
+	color:#000000;
+	background-color:#D1D1D1;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	padding:4px;
+}
+a:hover,a:active {
+	background-color:#A9A9A9;
+}
+
+#tempimage {
+				display:block;
+				width:475px;
+				height:250px;
+				margin-left:auto;
+				margin-right:auto;
+				padding-top: 16px;
+			}
+#socialbox {
+	display:inline-block;
+	width:150px;
+				height:150px;
+				background-color:#D1D1D1;
+				float:right;
+				margin: 8px;
+				border-radius: 3px;
+}
+
+#content {
+	margin:4px;
+	display:inline-block;
+	width:1080px;
+	height:auto;
+	float:left;
+}
+#rightcontent {
+	display:inline-block;
+	width:192px;
+	height:auto;
+	float:right;
+}
+#facebook {
+	display:inline-block;
+	margin-top:8px;
+	padding-left:15px;
+	padding-right:15px;
+	height:20px;
+	width:120px;
+}
+#twitter {
+	display:inline-block;
+	margin-top:8px;
+	padding-left:45px;
+	padding-right:45px;
+	height: 20px;
+	width:60px;
+}			
