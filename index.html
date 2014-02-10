@@ -1,9 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css" />
+        <meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+        <link rel="stylesheet" media="screen" href="css/superfish.css">
 		<title>Odyssey Automatons</title>
 		<script src="Scripts/analytics.js"></script>
+        <script src="Scripts/hoverIntent.js"></script>
+        <script src="Scripts/superfish.js"></script>
+        <script src="Scripts/jquery.js"></script>
+
+        <!-- initialize Superfish -->
+
+        <script>
+
+        jQuery(document).ready(function(){
+            jQuery('ul.sf-menu').superfish();
+        });
+
+        </script>
 	</head>
 	<body class="canvas">
 		<div id="fb-root"> </div>
@@ -15,8 +30,8 @@
 				</div>
 			</div>
 			<nav>
-				<ul>
-					<li >
+				<ul class="sf-menu" id="navbar">
+					<li class="current" >
 						<a  href="index.html">Home</a>
 					</li>
 					<li >

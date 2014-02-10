@@ -20,7 +20,7 @@ body.canvas {
 	height: 150px;
 	width: 1280px;
 }
-nav ul ul {
+/***nav ul ul {
 	display: none;
 }
 nav ul li:hover > ul {
@@ -54,6 +54,7 @@ nav ul li a {
 	display: block;
 	width: 100px;
 	height: 20px;
+nav ul li a {
 	color: #5C1F1F;
 	font-family:"Times New Roman", Times, serif;
 	font-weight: bold;
@@ -73,6 +74,10 @@ nav ul ul li {
 	float:none;
 	position:relative;
 }
+nav ul ul ul li {
+    float: none;
+    position: relative;
+}
 nav ul ul li a {
 	background: #A9A9A9;
 	height: 20px;
@@ -81,8 +86,12 @@ nav ul ul li a:hover {
 	background: #878787;
 }
 nav ul ul ul {
-	position: absolute; left: 100%; top:0;
+    float: inherit;
+	position: absolute;
+    left: 100%;
+    top:0;
 }
+***/
 #teambutton {
 	display: inline;
 	float: right;
