@@ -2,8 +2,22 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+		<link rel="stylesheet" media="screen" href="css/superfish.css">
 		<title>Member Bios</title>
 		<script src="Scripts/analytics.js"></script>
+		<script src="Scripts/hoverIntent.js"></script>
+        <script src="Scripts/superfish.js"></script>
+        <script src="Scripts/jquery.js"></script>
+
+        <!-- initialize Superfish -->
+
+        <script>
+
+        jQuery(document).ready(function(){
+            jQuery('ul.sf-menu').superfish();
+        });
+
+        </script>
 	</head>
 	<body class="canvas">
 		<div id="fb-root"> </div>
@@ -14,67 +28,83 @@
 					<a href="index.html"><img src="Images/oi_automation.png" /></a>
 				</div>
 			</div>
-			<div id="nav_bar">
-				<ul id="navbar">
-					<li class="navbutton">
-						<a class="navlink" href="index.html">Home</a>
+			<nav>
+				<ul class="sf-menu" id="navbar">
+					<li>
+						<a  href="index.html">Home</a>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="construction.html">Donations</a>
+					<li >
+						<a  href="construction.html">Donations</a>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="construction.html">Sponsors</a>
+					<li >
+						<a  href="construction.html">Sponsors</a>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="construction.html">About Us</a>
+					<li >
+						<a  href="construction.html">About Us</a>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="http://www.usfirst.org/">About FTC</a>
+					<li >
+						<a  href="http://www.usfirst.org/">About FTC</a>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="memberbios.html">Team Bios</a>
+					<li >
+						<a  href="#">Team Bios</a>
+						<ul>
+							<li>
+								<a href="#">Member Bios</a>
+								<ul>
+									<li>
+										<a href="construction.html">2012 Season</a>
+									</li>
+									<li class="current" >
+										<a href="memberbios.html">Current Season</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="construction.html">Robot Bios</a>
+							</li>
+						</ul>
 					</li>
-					<li class="navbutton">
-						<a class="navlink" href="construction.html">Team Blog</a>
+					<li >
+						<a  href="construction.html">Team Blog</a>
 					</li>
 					<li id="teambutton">
-						<a class="navlink" href="construction.html">Team Portal</a>
+						<a  href="construction.html">Team Portal</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 			<div id="content">
 				<h1 class="biotext">Member Bios</h1>
 				<div class="biobox">
-					<img class="biopic" src="Images/Bios/CBProfilePic.jpg" />
+					<img class="biopic" src="Images/Bios/Connor.jpg" />
 					<h2 class="biotext">Connor Belanger</h2>
 					<p class="biotext">Lead Programmer, Sophmore, Age 16</p>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Matt.jpg" />
 					<h2 class="biotext">Matthew Comstock</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Megan.jpg"/>
 					<h2 class="biotext">Megan Comstock</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Gage.jpg"/>
 					<h2 class="biotext">Gage Ginest</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
-					<h2 class="biotext">Anthony Jimenz</h2>
+					<img class="biopic" src="Images/Bios/Anthony.jpg" />
+					<h2 class="biotext">Anthony Jimenez</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Devan.jpg" />
 					<h2 class="biotext">Devan Pratt</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Katie.jpg"/>
 					<h2 class="biotext">Katie Vranesic</h2>
 				</div>
 				<div class="biobox">
-					<img class="biopic" />
+					<img class="biopic" src="Images/Bios/Jack.jpg"/>
 					<h2 class="biotext">Jack Williamson</h2>
 				</div>
 			</div>

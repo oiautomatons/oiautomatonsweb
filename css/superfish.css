@@ -34,8 +34,12 @@
 
 /*** DEMO SKIN ***/
 .sf-menu {
+	height: 30px;
+	width: 1272px;
 	float: left;
-	margin-bottom: 1em;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-bottom: 8px;
 }
 .sf-menu ul {
 	box-shadow: 2px 2px 6px rgba(209,209,209,.2);
@@ -46,7 +50,7 @@
 	border-left: 1px solid #fff;
 	border-top: 1px solid #dFeEFF; /* fallback colour must use full shorthand */
 	border-top: 1px solid rgba(255,255,255,.5);
-	padding: .75em 1em;
+	padding: 6px;
 	text-decoration: none;
 	zoom: 1; /* IE7 */
 }
@@ -54,6 +58,7 @@
 	color: #5C1F1F;
 }
 .sf-menu li {
+	height: 32px;
 	background: #D1D1D1;
 	white-space: nowrap; /* no need for Supersubs plugin */
 	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
@@ -64,7 +69,8 @@
 	background: #D1D1D1;
 }
 .sf-menu ul ul li {
-	background: #;
+	
+	background: #D1D1D1;
 }
 .sf-menu li:hover,
 .sf-menu li.sfHover {
