@@ -10,7 +10,7 @@ body.canvas {
 	border-radius: 4px;
 }
 #biopage {
-	height: 1280px;
+	height: 1780px;
 	width: 1280px;
 	margin: auto;
 	background-color: white;
@@ -22,7 +22,6 @@ body.canvas {
 }
 
 #teambutton {
-	display: inline;
 	float: right;
 }
 
@@ -101,7 +100,7 @@ img.biopic {
 div.biobox {
 	display: inline-block;
 	margin: 8px;
-	width: 522px;
+	width: 340px; /*522 for two column, 340 for 3 column*/
 }
 img.sponsorad {
 	display: inline-block;
