@@ -80,9 +80,9 @@ body.canvas {
 }
 #profile_image {
 	display: inline-block;
-	margin: 8px;
-	height: 134px;
-	height: 134px;
+	margin: 0px;
+	height: 150px;
+	height: 1024px;
 	overflow: hidden;
 }
 img.biopic {

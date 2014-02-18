@@ -17,6 +17,10 @@
     <orderEntry type="library" name="Google App Engine SDK" level="project" />
     <orderEntry type="module" module-name="src" />
     <orderEntry type="module" module-name="examples" />
+    <orderEntry type="library" name="Google App Engine SDK" level="project" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="myDocStringFormat" value="Plain" />
   </component>
 </module>
 
