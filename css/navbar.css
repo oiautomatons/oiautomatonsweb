@@ -4,10 +4,8 @@
 	list-style:none;
 }
 #menu {
-	width:1276px;
+	width:1280px;
 	height:28px;
-	margin-left:4px;
-	margin-right:4px;
 	background-color:#D1D1D1;
 	background:linear-gradient(#D1D1D1, #BCBCBC);
 	border-radius: 3px;
@@ -32,7 +30,7 @@
 	float: left;
 	padding: 4px;
 	color: #5C1F1F;
-	font: bold 16px "Times New Roman", Times, serif;
+	font: bold 15px Arial, Helvetica, sans-serif;
 	text-decoration:none;
 }
 #menu li:hover > a {
