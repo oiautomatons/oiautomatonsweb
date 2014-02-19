@@ -4,7 +4,7 @@ body.canvas {
 
 #page {
 	height: 1024px;
-	width: 1280px;
+	width: 90vw;
 	margin: auto;
 	background-color: white;
 	border-radius: 4px;
@@ -20,7 +20,7 @@ body.canvas {
 }
 #title_bar {
 	height: 150px;
-	width: 1280px;
+	/* width: 1280px; */
 }
 
 #teambutton {
@@ -47,13 +47,13 @@ body.canvas {
 #content {
 	margin: 4px;
 	display: inline-block;
-	width: 1080px;
+	/* width: 1080px; */
 	height: auto;
 	float: left;
 }
 #rightcontent {
 	display: inline-block;
-	width: 192px;
+	width: 15%;
 	height: auto;
 	float: right;
 }
@@ -84,7 +84,7 @@ body.canvas {
 	display: inline-block;
 	margin: 0px;
 	height: 150px;
-	width: 1280px;
+	width: 90vw;
 	overflow: hidden;
 }
 img.biopic {
