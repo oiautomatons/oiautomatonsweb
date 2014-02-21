@@ -5,6 +5,7 @@ body.canvas {
 #page {
 	height: 1024px;
 	width: 90vw;
+	/* min-width: 90vw; */
 	margin: auto;
 	background-color: white;
 	border-radius: 4px;
@@ -29,7 +30,7 @@ body.canvas {
 
 #tempimage {
 	display: block;
-	width: 475px;
+	/* width: 475px; */
 	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
@@ -46,14 +47,17 @@ body.canvas {
 }
 #content {
 	margin: 4px;
-	display: inline-block;
-	/* width: 1080px; */
+	display: block;
+	width: 65%;
+	max-width: 75%;
+	min-width: 50%;
 	height: auto;
 	float: left;
 }
 #rightcontent {
 	display: inline-block;
 	width: 15%;
+	max-width: 15%;
 	height: auto;
 	float: right;
 }
