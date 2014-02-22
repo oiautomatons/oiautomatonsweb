@@ -117,10 +117,20 @@ div.biobox {
 	margin: 8px;
 	width: 340px; /*522 for two column, 340 for 3 column*/
 }
-img.sponsorad {
+#sponsoradwrap {
 	display: inline-block;
+	position:relative;
 	width: 160px;
 	height: 130px;
 	float: right;
 	margin: 8px;
+	overflow: hidden;
+}
+img.sponsorad {
+	width: 160px;
+	height: 130px;
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
 }
