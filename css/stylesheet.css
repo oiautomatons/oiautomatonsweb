@@ -5,7 +5,7 @@ body.canvas {
 #page {
 	height: 1024px;
 	width: 90vw;
-	/* min-width: 90vw; */
+	max-width: 90%;
 	margin: auto;
 	background-color: white;
 	border-radius: 4px;
@@ -21,7 +21,17 @@ body.canvas {
 }
 #title_bar {
 	height: 150px;
-	/* width: 1280px; */
+	/* width: 100%; */
+	max-height: 150px;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 25%, rgba(130,140,149,1) 49%, rgba(40,52,59,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(25%,rgba(255,255,255,1)), color-stop(49%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
+
 }
 
 #teambutton {
@@ -85,10 +95,11 @@ body.canvas {
 	width: 60px;
 }
 #profile_image {
-	display: inline-block;
+	display: inline-flex;
 	margin: 0px;
 	height: 150px;
 	width: 90vw;
+	max-width: 90%;
 	overflow: hidden;
 }
 img.biopic {
@@ -124,3 +135,4 @@ img.sponsorad {
 	float: right;
 	margin: 8px;
 }
+
