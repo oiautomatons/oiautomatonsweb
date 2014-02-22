@@ -1,6 +1,3 @@
-/*! jQuery v1.10.1 | (c) 2005, 2013 jQuery Foundation, Inc. | jquery.org/license
- //@ sourceMappingURL=jquery.min.map
- */
 (function(e, t) {
 	var n, r, i = typeof t, o = e.location, a = e.document, s = a.documentElement, l = e.jQuery, u = e.$, c = {}, p = [], f = "1.10.1", d = p.concat, h = p.push, g = p.slice, m = p.indexOf, y = c.toString, v = c.hasOwnProperty, b = f.trim, x = function(e, t) {
 		return new x.fn.init(e, t, r);
@@ -305,6 +302,8 @@
 		var t = e.length, n = x.type(e);
 		return x.isWindow(e) ? !1 : 1 === e.nodeType && t ? !0 : "array" === n || "function" !== n && (0 === t || "number" == typeof t && t > 0 && t - 1 in e)
 	}
+
+
 	r = x(a), function(e, t) {
 		var n, r, i, o, a, s, l, u, c, p, f, d, h, g, m, y, v, b = "sizzle" + -new Date, w = e.document, T = 0, C = 0, N = lt(), k = lt(), E = lt(), S = !1, A = function() {
 			return 0
@@ -392,6 +391,7 @@
 				return e.push(n += " ") > o.cacheLength &&
 				delete t[e.shift()], t[n] = r
 			}
+
 			return t
 		}
 
@@ -463,6 +463,8 @@
 				})
 			})
 		}
+
+
 		s = at.isXML = function(e) {
 			var t = e && (e.ownerDocument || e).documentElement;
 			return t ? "HTML" !== t.nodeName : !1
@@ -999,9 +1001,13 @@
 			}
 			return l(e,f)(i, t, !h, n, V.test(e)), n
 		}
+
+
 		o.pseudos.nth = o.pseudos.eq;
 		function jt() {
 		}
+
+
 		jt.prototype = o.filters = o.pseudos, o.setFilters = new jt, r.sortStable = b.split("").sort(A).join("") === b, p(), [0, 0].sort(A), r.detectDuplicates = S, x.find = at, x.expr = at.selectors, x.expr[":"] = x.expr.pseudos, x.unique = at.uniqueSort, x.text = at.getText, x.isXMLDoc = at.isXML, x.contains = at.contains
 	}(e);
 	var O = {};
@@ -1011,6 +1017,8 @@
 			t[n] = !0
 		}), t
 	}
+
+
 	x.Callbacks = function(e) {
 		e = "string" == typeof e ? O[e] || F(e) : x.extend({}, e);
 		var n, r, i, o, a, s, l = [], u = !e.once && [], c = function(t) {
@@ -1173,6 +1181,8 @@
 			}
 		}
 	}
+
+
 	x.extend({
 		cache : {},
 		noData : {
@@ -1246,6 +1256,8 @@
 			return !1;
 		return !0
 	}
+
+
 	x.extend({
 		queue : function(e, n, r) {
 			var i;
@@ -1534,6 +1546,8 @@
 		} catch(e) {
 		}
 	}
+
+
 	x.event = {
 		global : {},
 		add : function(e, n, r, o, a) {
@@ -1880,6 +1894,8 @@
 		while(e&&1!==e.nodeType);
 		return e
 	}
+
+
 	x.each({
 		parent : function(e) {
 			var t = e.parentNode;
@@ -2125,6 +2141,8 @@
 			"script" === n && t.text !== e.text ? (Ht(t).text = e.text, qt(t)) : "object" === n ? (t.parentNode && (t.outerHTML = e.outerHTML), x.support.html5Clone && e.innerHTML && !x.trim(t.innerHTML) && (t.innerHTML = e.innerHTML)) : "input" === n && Ct.test(e.type) ? (t.defaultChecked = t.checked = e.checked, t.value !== e.value && (t.value = e.value)) : "option" === n ? t.defaultSelected = t.selected = e.defaultSelected : ("input" === n || "textarea" === n) && (t.defaultValue = e.defaultValue)
 		}
 	}
+
+
 	x.each({
 		appendTo : "append",
 		prependTo : "prepend",
@@ -2150,6 +2168,8 @@
 	function Bt(e) {
 		Ct.test(e.type) && (e.defaultChecked = e.checked)
 	}
+
+
 	x.extend({
 		clone : function(e, t, n) {
 			var r, i, o, a, s, l = x.contains(e.ownerDocument, e);
@@ -2283,6 +2303,8 @@
 			r = e[a], r.style && (t && "none" !== r.style.display && "" !== r.style.display || (r.style.display = t ? o[a] || "" : "none"));
 		return e
 	}
+
+
 	x.fn.extend({
 		css : function(e, n) {
 			return x.access(this, function(e, n, r) {
@@ -2390,6 +2412,8 @@
 		var n = x(t.createElement(e)).appendTo(t.body), r = x.css(n[0], "display");
 		return n.remove(), r
 	}
+
+
 	x.each(["height", "width"], function(e, n) {
 		x.cssHooks[n] = {
 			get : function(e, r, i) {
@@ -2490,6 +2514,8 @@
 		else
 			for (i in t)gn(e + "[" + i + "]", t[i], n, r)
 	}
+
+
 	x.each("blur focus focusin focusout load resize scroll unload click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup error contextmenu".split(" "), function(e, t) {
 		x.fn[t] = function(e, n) {
 			return arguments.length > 0 ? this.on(t, null, e, n) : this.trigger(t)
@@ -2536,6 +2562,7 @@
 				return "string" != typeof c || a || o[c] ? a ? !( u = c) : t : (n.dataTypes.unshift(c), s(c), !1)
 			}), u
 		}
+
 		return s(n.dataTypes[0]) || !o["*"] && s("*")
 	}
 
@@ -2544,6 +2571,8 @@
 		for (i in n)n[i] !== t && ((o[i]?e:r||(r={}))[i] = n[i]);
 		return r && x.extend(!0, e, r), e
 	}
+
+
 	x.fn.load = function(e, n, r) {
 		if ("string" != typeof e && Sn)
 			return Sn.apply(this, arguments);
@@ -2680,6 +2709,7 @@
 				var c, y, v, w, T, N = n;
 				2 !== b && ( b = 2, s && clearTimeout(s), u = t, a = i || "", C.readyState = e > 0 ? 4 : 0, c = e >= 200 && 300 > e || 304 === e, r && ( w = Mn(p, C, r)), w = On(p, w, C, c), c ? (p.ifModified && ( T = C.getResponseHeader("Last-Modified"), T && (x.lastModified[o] = T), T = C.getResponseHeader("etag"), T && (x.etag[o] = T)), 204 === e || "HEAD" === p.type ? N = "nocontent" : 304 === e ? N = "notmodified" : ( N = w.state, y = w.data, v = w.error, c = !v)) : ( v = N, (e || !N) && ( N = "error", 0 > e && ( e = 0))), C.status = e, C.statusText = (n || N) + "", c ? h.resolveWith(f, [y, N, C]) : h.rejectWith(f, [C, N, v]), C.statusCode(m), m = t, l && d.trigger( c ? "ajaxSuccess" : "ajaxError", [C, p, c ? y : v]), g.fireWith(f, [C, N]), l && (d.trigger("ajaxComplete", [C, p]), --x.active || x.event.trigger("ajaxStop")))
 			}
+
 			return C
 		},
 		getJSON : function(e, t, n) {
@@ -2758,6 +2788,8 @@
 			data : t
 		}
 	}
+
+
 	x.ajaxSetup({
 		accepts : {
 			script : "text/javascript, application/javascript, application/ecmascript, application/x-ecmascript"
@@ -2822,6 +2854,8 @@
 		} catch(t) {
 		}
 	}
+
+
 	x.ajaxSettings.xhr = e.ActiveXObject ? function() {
 		return !this.isLocal && In() || zn()
 	} : In, Rn = x.ajaxSettings.xhr(), x.support.cors = !!Rn && "withCredentials" in Rn, Rn = x.support.ajax = !!Rn, Rn && x.ajaxTransport(function(n) {
@@ -2948,6 +2982,8 @@
 		} else
 			t[r] = i
 	}
+
+
 	x.Animation = x.extend(er, {
 		tweener : function(e, t) {
 			x.isFunction(e) ? ( t = e, e = ["*"]) : e = e.split(" ");
@@ -2993,6 +3029,8 @@
 	function rr(e, t, n, r, i) {
 		return new rr.prototype.init(e, t, n, r, i)
 	}
+
+
 	x.Tween = rr, rr.prototype = {
 		constructor : rr,
 		init : function(e, t, n, r, i, o) {
@@ -3073,6 +3111,8 @@
 			n = Zt[i], r["margin" + n] = r["padding" + n] = e;
 		return t && (r.opacity = r.width = e), r
 	}
+
+
 	x.each({
 		slideDown : ir("show"),
 		slideUp : ir("hide"),
@@ -3182,6 +3222,8 @@
 	function or(e) {
 		return x.isWindow(e) ? e : 9 === e.nodeType ? e.defaultView || e.parentWindow : !1
 	}
+
+
 	x.each({
 		Height : "height",
 		Width : "width"
@@ -3204,4 +3246,4 @@
 	}, x.fn.andSelf = x.fn.addBack, "object" == typeof module && module && "object" == typeof module.exports ? module.exports = x : (e.jQuery = e.$ = x, "function" == typeof define && define.amd && define("jquery", [], function() {
 		return x
 	}))
-})(window);
+})(window); 
