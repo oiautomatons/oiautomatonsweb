@@ -6,3 +6,5 @@
 *.idea
 *.xml
 *.idea/*
+
+.idea/workspace.xml
