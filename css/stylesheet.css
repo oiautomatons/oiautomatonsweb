@@ -56,10 +56,10 @@ body.canvas {
 	border-radius: 3px;
 }
 #content {
-	margin: 4px;
+	margin: .25em;
 	display: block;
-	width: 65%;
-	max-width: 75%;
+	width: 84%;
+	max-width: 84%;
 	min-width: 50%;
 	height: auto;
 	float: left;
@@ -74,7 +74,7 @@ body.canvas {
 #sociallabel {
 	text-align:center;
 	margin-bottom:0px;
-	margin-top:6px;
+	margin-top:.375em;
 	color:#5C1F1F;
 	font-family:Arial, Helvetica, sans-serif;
 }
@@ -125,14 +125,22 @@ p.biotext {
 }
 div.biobox {
 	display: inline-block;
-	margin: 8px;
-	width: 340px; /*522 for two column, 340 for 3 column*/
+	margin: .5em;
+	width: 30%; /*522 for two column, 340 for 3 column*/
 }
-img.sponsorad {
-	display: inline-block;
+#sponsoradwrap {
+	position:relative;
 	width: 160px;
 	height: 130px;
-	float: right;
 	margin: 8px;
+	float: right;
+}
+img.sponsorad {
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	width: 160px;
+	height: 130px;
 }
 

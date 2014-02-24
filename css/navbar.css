@@ -4,8 +4,6 @@
 	list-style:none;
 }
 #menu {
-	width: 100%;
-	height: initial;
 	/* margin-top: inherit; */
 	background-color:#D1D1D1;
 	background:linear-gradient(#D1D1D1, #BCBCBC);
@@ -48,7 +46,7 @@
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
-	top: 30px;
+	top: 25px;
 	left: 0;
 	z-index: 1;
 	background-color:#757575;
@@ -63,7 +61,7 @@
 }
 #menu ul ul {
 	top:0;
-	left:134px;
+	left:138px;
 	margin:0;
 	_margin:0;
 }
