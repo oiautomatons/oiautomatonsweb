@@ -12,8 +12,8 @@ body.canvas {
 	overflow:hidden;
 }
 #biopage {
-	height: 1780px;
-	width: 1280px;
+	height: 100%;
+	width: 100%;
 	margin: auto;
 	background-color: white;
 	border-radius: 4px;
@@ -58,9 +58,9 @@ body.canvas {
 #content {
 	margin: .25em;
 	display: block;
-	width: 84%;
-	max-width: 84%;
-	min-width: 50%;
+	width: 80%;
+	max-width: 80%;
+	min-width: 60%;
 	height: auto;
 	float: left;
 }
