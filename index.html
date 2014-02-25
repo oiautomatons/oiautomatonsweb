@@ -2,9 +2,16 @@
 <html lang="en">
 	<head>
         <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
-        <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+        
+        <meta name="viewport" content="width=device-width", initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="css/navbar.css" />
+		<!-- Phone -->
+		<link href="phone_screen.css" rel="stylesheet" type="text/css" media="only screen and (max-width:320px)">
+		<!-- Tablet -->
+		<link href="tablet_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:321px) and (max-width:768px)">
+		<!-- Desktop -->
+		<link href="desktop_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:769px)">
 		<title>Odyssey Automatons</title>
 		<script type="text/javascript" src="Scripts/analytics.js"></script>
         <script type="text/javascript" src="Scripts/jquery.js"></script>
@@ -18,14 +25,8 @@
 		<div id="page">
 			<div id="title_bar">
 				<div id="profile_image">
-					<a href="index.html"><img src="Images/oi_automation_atlas1_sqaure.png" style="max-width: 100%;"></a>
-                    <span style="
-                        margin: auto;
-                        font-family: sans-serif;
-                        font-style: normal;
-                        font-weight: bold;
-                        text-align: -webkit-center;
-                        ">Odyssey Institue for Advanced International Studies<br>Automatons<br>FTC Team 6174</span>
+					<a href="index.html"><img id="logoimage" src="Images/oi_automation_atlas1_sqaure.png"></a>
+                    <span id="titletext">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team 6174</span>
 				</div>
 			</div>
 			<nav>
