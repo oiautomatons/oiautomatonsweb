@@ -144,3 +144,14 @@ img.sponsorad {
 	height: 130px;
 }
 
+#titletext {
+	margin: auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: -webkit-center;
+}
+
+#logoimage {
+	 max-width: 100%;
+}
