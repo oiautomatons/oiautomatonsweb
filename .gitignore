@@ -4,7 +4,6 @@
 *.DS_Store
 *.DS_Store?
 *.idea
-*.xml
 *.idea/*
 
 .idea/workspace.xml
