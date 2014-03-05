@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-ng-app="automatonsApp">
 	<head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width", initial-scale="1"/>
@@ -31,68 +31,57 @@
 			<nav>
 				<ul id="menu">
 					<li >
-						<a  href="index.html">Home</a>
+						<a  href="#/">Home</a>
 					</li>
 					<li >
-						<a  href="construction.html">Donations</a>
+						<a  href="#/construction">Donations</a>
 						<ul>
 							<li>
-								<a href="construction.html">Wish List</a>
+								<a href="#/construction">Wish List</a>
 							</li>
 							<li>
-								<a href="construction.html">Donation Levels</a>
+								<a href="#/construction">Donation Levels</a>
 							</li>
 						</ul>
 					</li>
 					<li >
-						<a  href="construction.html">Sponsors</a>
+						<a  href="#/construction">Sponsors</a>
 					</li>
 					<li >
-						<a  href="aboutus.html">About Us</a>
+						<a  href="#/about">About Us</a>
 					</li>
 					<li >
 						<a  href="http://www.usfirst.org/">About FTC</a>
 					</li>
 					<li >
-						<a  href="#">Team Bios</a>
+						<a  href="#/construction">Team Bios</a>
 						<ul>
 							<li>
-								<a href="#">Member Bios</a>
+								<a href="#/">Member Bios</a>
 								<ul>
 									<li>
-										<a href="2012-memberbios.html">2012 Season</a>
+										<a href="#/2012bios">2012 Season</a>
 									</li>
 									<li>
-										<a href="2013-memberbios.html">Current Season</a>
+										<a href="#/2013bios">Current Season</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="construction.html">Robot Bios</a>
+								<a href="#/construction">Robot Bios</a>
 							</li>
 						</ul>
 					</li>
 					<li >
-						<a  href="construction.html">Team Blog</a>
+						<a  href="#/blog">Team Blog</a>
 					</li>
 					<li >
-						<a id="teambutton" href="construction.html">Team Portal</a>
+						<a id="teambutton" href="#/construction">Team Portal</a>
 					</li>
 				</ul>
 			</nav>
-			<div id="content" style="text-align: center">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan metus lorem, tristique rhoncus tellus pretium at. Maecenas a neque nec libero eleifend egestas. Phasellus fermentum, turpis quis fringilla laoreet, lacus eros aliquet ante, sed ornare ligula lacus at est. Fusce faucibus, ante a hendrerit tincidunt, erat neque euismod massa, id pretium dui massa sed libero. Morbi libero mauris, faucibus id fringilla vitae, placerat et nunc. Vestibulum id tortor placerat, molestie felis quis, imperdiet ante. Pellentesque cursus nibh eget ipsum condimentum, in semper metus pretium. Fusce vitae nisl ac dolor condimentum molestie a quis felis. Donec aliquet turpis a vestibulum porttitor. Suspendisse aliquet ligula quis nunc commodo fermentum. Nulla suscipit purus sit amet nisl tempus, sed tincidunt mauris luctus. Sed tincidunt dolor ut ipsum pharetra ultricies. </p>
-				<p>
-					<span style="text-decoration: underline">Email:</span> oiautomatons@topamail.com
-				</p>
-				<p>
-					<span style="text-decoration: underline">Phone Number:</span> 623-327-1757
-				</p>
-				<p>
-					<span style="text-decoration: underline">Address:</span> 1495 S Airport Rd., Buckeye, AZ 85326
-				</p>
-			</div>
+			<!-- Placeholder for views -->
+            <div data-ng-view=""></div>
 			<div id="rightcontent">
 				<div id="socialbox">
 					<p id="sociallabel">
@@ -112,4 +101,9 @@
 			</div>
 		</div>
 	</body>
+    <!-- Vendor libs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+    <!-- App libs -->
+    <script src="app/app.js"></script>
+    <script src="app/controllers/controller.js"></script>
 </html>
