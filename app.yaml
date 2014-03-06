@@ -1,41 +1,27 @@
 application: oi-automatons
-version: 8
+version: 9
 runtime: python27
 api_version: 1
-threadsafe: false
-
-default_expiration: "2d"
+threadsafe: true
 
 handlers:
+- url: /(.*\.(gif|png|jpg|ico|js|css))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|ico|js|css))
 
 - url: /robots.txt
   static_files: robots.txt
-  upload: robots.txt 
+  upload: robots.txt
+
+- url: /partials
+  static_dir: partials
+
+- url: /app
+  static_dir: app
 
 - url: .*
-  script: main.py
-  
-- url: /Images
-  static_dir: Images
-  http_headers:
-    Cache-Control: public
-    expiration: "7d"
+  script: main.app
 
-- url: /favicon.ico
-  static_files: favicon.ico
-  upload: favicon.ico
-  http_headers:
-    Cache-Control: public
-    expiration: "14d"
-    
-- url: /css
-  static_dir: css
-  http_headers:
-    Cache-Control: public
-    expiration: "1d 12h"
-
-- url: /Scripts
-  static_dir: Scripts
-  http_headers:
-    Cache-Control: public
-    expiration: "3d"
+libraries:
+- name: PIL
+  version: latest

@@ -26,3 +26,11 @@
 .idea/libraries/Google_App_Engine_SDK.xml
 
 .idea/libraries/Google_App_Engine_SDK.xml
+
+*.xml
+
+.idea/vcs.xml
+
+.idea/misc.xml
+
+.idea/misc.xml
