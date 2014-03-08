@@ -1,109 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="automatonsApp">
-	<head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width", initial-scale="1"/>
-        <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
-		<link rel="stylesheet" type="text/css" href="css/navbar.css" />
-		<!-- Phone -->
-		<link href="css/phone_screen.css" rel="stylesheet" type="text/css" media="only screen and (max-width:320px)">
-		<!-- Tablet -->
-		<link href="css/tablet_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:321px) and (max-width:768px)">
-		<!-- Desktop -->
-		<link href="css/desktop_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:769px)">
-		<title>Odyssey Automatons</title>
-		<script type="text/javascript" src="Scripts/analytics.js"></script>
-        <script type="text/javascript" src="Scripts/jquery.js"></script>
-        <script type="text/javascript" src="Scripts/navbar.js"></script>
-        <script type="text/javascript" src="Scripts/sponsorads.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
-	</head>
-	<body class="canvas">
-		<div id="fb-root"> </div>
-		<script src="Scripts/facebook_like.js"></script>
-		<div id="page">
-			<div id="title_bar">
-				<div id="profile_image">
-					<a href="index.html"><img id="logoimage" src="Images/oi_automation_atlas1_sqaure.png"></a>
-                    <span id="titletext">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team 6174</span>
-				</div>
-			</div>
-			<nav>
-				<ul id="menu">
-					<li >
-						<a  href="#/">Home</a>
-					</li>
-					<li >
-						<a  href="#/construction">Donations</a>
-						<ul>
-							<li>
-								<a href="#/construction">Wish List</a>
-							</li>
-							<li>
-								<a href="#/construction">Donation Levels</a>
-							</li>
-						</ul>
-					</li>
-					<li >
-						<a  href="#/construction">Sponsors</a>
-					</li>
-					<li >
-						<a  href="#/about">About Us</a>
-					</li>
-					<li >
-						<a  href="http://www.usfirst.org/">About FTC</a>
-					</li>
-					<li >
-						<a  href="#/construction">Team Bios</a>
-						<ul>
-							<li>
-								<a href="#/">Member Bios</a>
-								<ul>
-									<li>
-										<a href="#/2012bios">2012 Season</a>
-									</li>
-									<li>
-										<a href="#/2013bios">Current Season</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="#/construction">Robot Bios</a>
-							</li>
-						</ul>
-					</li>
-					<li >
-						<a  href="#/blog">Team Blog</a>
-					</li>
-					<li >
-						<a id="teambutton" href="#/construction">Team Portal</a>
-					</li>
-				</ul>
-			</nav>
-			<!-- Placeholder for views -->
-            <div data-ng-view=""></div>
-			<div id="rightcontent">
-				<div id="socialbox">
-					<p id="sociallabel">
-						Social Media
-					</p>
-					<div id="facebook" class="fb-like" data-href="https://www.facebook.com/oiautomatons" data-width="120" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-					<a id="twitter" href="https://twitter.com/oiautomatons" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow @oiautomatons</a>
-					<script src="Scripts/twitter_follow.js"></script>
-				</div>
-				<div id="sponsoradwrap">
-					<img class="sponsorad" src="Images/Sponsors/acehardware.png" />
-					<img class="sponsorad" src="Images/Sponsors/brandinghabit.png" />
-					<img class="sponsorad" src="Images/Sponsors/westusa.png"/>
-					<img class="sponsorad" src="Images/Sponsors/joeflorida.png"/>
-					<img class="sponsorad" src="Images/Sponsors/officemax.png" />
-				</div>
-			</div>
-		</div>
-	</body>
-    <!-- Vendor libs -->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
-    <!-- App libs -->
-    <script src="app/app.js"></script>
-    <script src="app/controllers/controller.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"
+    , initial-scale="1"/>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+    <!-- Phone -->
+    <link href="css/phone_screen.css" rel="stylesheet" type="text/css" media="only screen and (max-width:320px)">
+    <!-- Tablet -->
+    <link href="css/tablet_screen.css" rel="stylesheet" type="text/css"
+          media="only screen and (min-width:321px) and (max-width:768px)">
+    <!-- Desktop -->
+    <link href="css/desktop_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:769px)">
+    <title>Odyssey Automatons</title>
+    <script type="text/javascript" src="Scripts/analytics.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.js"></script>
+    <script type="text/javascript" src="Scripts/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/sponsorads.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+</head>
+<body class="canvas">
+<div id="fb-root"></div>
+<script src="Scripts/facebook_like.js"></script>
+<div id="page">
+    <div id="title_bar">
+        <div id="profile_image">
+            <a href="index.html"><img id="logoimage" src="Images/oi_automation_atlas1_sqaure.png"></a>
+            <span id="titletext">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team 6174</span>
+        </div>
+    </div>
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="#/">Home</a>
+            </li>
+            <li>
+                <a href="#/construction">Donations</a>
+                <ul>
+                    <li>
+                        <a href="#/construction">Wish List</a>
+                    </li>
+                    <li>
+                        <a href="#/construction">Donation Levels</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#/construction">Sponsors</a>
+            </li>
+            <li>
+                <a href="#/about">About Us</a>
+            </li>
+            <li>
+                <a href="http://www.usfirst.org/">About FTC</a>
+            </li>
+            <li>
+                <a href="#/construction">Team Bios</a>
+                <ul>
+                    <li>
+                        <a href="#/">Member Bios</a>
+                        <ul>
+                            <li>
+                                <a href="#/2012bios">2012 Season</a>
+                            </li>
+                            <li>
+                                <a href="#/2013bios">Current Season</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#/construction">Robot Bios</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#/blog">Team Blog</a>
+            </li>
+            <li>
+                <a id="teambutton" href="#/construction">Team Portal</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Placeholder for views -->
+    <div data-ng-view=""></div>
+    <div id="rightcontent">
+        <div id="socialbox">
+            <p id="sociallabel">
+                Social Media
+            </p>
+
+            <div id="facebook" class="fb-like" data-href="https://www.facebook.com/oiautomatons" data-width="120"
+                 data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+            <a id="twitter" href="https://twitter.com/oiautomatons" class="twitter-follow-button"
+               data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow @oiautomatons</a>
+            <script src="Scripts/twitter_follow.js"></script>
+        </div>
+        <div id="sponsoradwrap">
+            <img class="sponsorad" src="Images/Sponsors/acehardware.png" width="160" height="130"/>
+            <img class="sponsorad" src="Images/Sponsors/brandinghabit.png" width="160" height="130"/>
+            <img class="sponsorad" src="Images/Sponsors/westusa.png" width="160" height="130"/>
+            <img class="sponsorad" src="Images/Sponsors/joeflorida.png" width="160" height="117"/>
+            <img class="sponsorad" src="Images/Sponsors/officemax.png" width="160" height="130"/>
+        </div>
+    </div>
+</div>
+</body>
+<!-- Vendor libs -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+<!-- App libs -->
+<script src="app/app.js"></script>
+<script src="app/controllers/controller.js"></script>
 </html>
