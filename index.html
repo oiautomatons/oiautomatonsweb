@@ -4,138 +4,88 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
-    <link href="css/custom.css" rel="stylesheet">
-    <!--<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>-->
-    <!--<link rel="stylesheet" type="text/css" href="css/navbar.css"/>-->
-    <!-- Phone -->
-    <!--<link href="css/phone_screen.css" rel="stylesheet" type="text/css" media="only screen and (max-width:320px)">
-    <!-- Tablet -->
-    <!--<link href="css/tablet_screen.css" rel="stylesheet" type="text/css"
-          media="only screen and (min-width:321px) and (max-width:768px)">
-    <!-- Desktop -->
-    <!--<link href="css/desktop_screen.css" rel="stylesheet" type="text/css" media="only screen and (min-width:769px)">-->
-    <title>Odyssey Automatons</title>
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/robot.ico">
 </head>
-<body class="canvas">
-<div id="fb-root"></div>
-<script src="Scripts/facebook_like.js"></script>
-<div class="container" id="page">
-    <div id="title_bar">
-        <div class="container">
-            <div id="profile_image">
-                <a href="index.html"><img class="img-responsive" id="logoimage" src="Images/oi_automation_atlas1_sqaure.png"></a>
-                <h2 id="teamname">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team 6174<h2>
+<body>
+<div class="row">
+    <div class="column">
+        <div id="fb-root"></div>
+        <script src="Scripts/facebook_like.js"></script>
+        <div class="row" id="title_bar">
+            <div class="columns">
+                <div class="small-3 medium-3 large-3 column" id="profile_image"><a href=#/"><img id="logoimage" class="visible-img"
+                                                                                 src="Images/oi_automation_atlas1_sqaure.png"></a>
+                </div>
+                <div class="small-9 medium-9 large-9 column">
+                    <p id="teamname">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team
+                        6174</p>
+                </div>
             </div>
         </div>
-
-    </div>
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="nav navbar-nav" id="menu">
-                    <li class="active">
-                        <a href="#/">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#/construction" class="dropdown-toggle" data-toggle="dropdown">Donations<b
-                                class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="#/construction">Wish List</a>
-                            </li>
-                            <li>
-                                <a href="#/construction">Donation Levels</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#/construction">Sponsors</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#/about" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="http://www.usfirst.org/">About FTC</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a href="#/construction" class="dropdown-toggle" data-toggle="dropdown">Team Bios<b
-                                class="caret"></b> </a>
-                        <ul class="dropdown-menu">
-
-                            <li>
-                                <a href="#/2012bios">2012 Season</a>
-                            </li>
-                            <li>
-                                <a href="#/2013bios">Current Season</a>
-                            </li>
-                            <li>
-                                <a href="#/construction">Robot Bios</a>
-                            </li>
-                        </ul>
-
-
-                    </li>
-                    <li>
-                        <a href="#/blog">Team Blog</a>
-                    </li>
-                    <!--<li>
-                        <a id="teambutton" href="#/construction">Team Portal</a>
-                    </li>-->
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    <div class="container">
         <div class="row">
-            <!-- Placeholder for views -->
-            <div class="col-md-8" id="maincontent" data-ng-view=""></div>
-            <div class="col-md-4" id="rightcontent">
-
-                <div class="row" id="socialbox">
-                    <p id="sociallabel">
-                        Social Media
-                    </p>
-
+            <div class="small-12 medium-12 large-12 column" role="navigation">
+                <nav class="top-bar" data-topbar>
+                    <ul class="title-area">
+                        <li class="name"></li>
+                        <li class="toggle-topbar menu-icon"><a href="#/">Menu</a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul class="left" id="menu">
+                        <li><a title="Home" href="#/">Home</a></li>
+                        <li class="has-dropdown">
+                            <a title="Donations" href="#/construction">Donations</a>
+                            <ul class="dropdown">
+                                <li><a title="Wish List" href="#/construction">Wish List</a></li>
+                                <li><a title="Donation Levels" href="#/construction">Donation Levels</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Sponsors" href="#/construction">Sponsors</a></li>
+                        <li class="has-dropdown">
+                            <a title="About" href="#/about">About<b class="caret"></b></a>
+                            <ul class="dropdown">
+                                <li><a title="About FTC" href="http://www.usfirst.org/">About FTC</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#/construction">Team Bios</a>
+                            <ul class="dropdown">
+                                <li><a title="2012 Season" href="#/2012bios">2012 Season</a></li>
+                                <li><a title="Current Season" href="#/2013bios">Current Season</a></li>
+                                <li><a title="Robot Bios" href="#/construction">Robot Bios</a></li>
+                            </ul>
+                        </li>
+                        <li><a title="Team Blog" href="#/blog">Team Blog</a></li>
+                        <li><a title="Team Portal" id="teambutton" href="#/construction">Team Portal</a></li>
+                    </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                <!-- Placeholder for views -->
+                <div class="small-9 medium-9 large-9 column" id="maincontent" data-ng-view=""></div>
+                <div class="small-3 medium-3 large-3 columns" id="rightcontent" id="socialbox">
+                    <p id="sociallabel">Social Media</p>
                     <div id="facebook" class="fb-like" data-href="https://www.facebook.com/oiautomatons"
-                         data-width="120"
-                         data-layout="button_count" data-action="like" data-show-faces="false"
-                         data-share="true"></div>
+                             data-width="120"
+                             data-layout="button_count" data-action="like" data-show-faces="false"
+                             data-share="true"></div>
                     <a id="twitter" href="https://twitter.com/oiautomatons" class="twitter-follow-button"
-                       data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow
-                        @oiautomatons</a>
+                           data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow
+                            @oiautomatons</a>
                     <script src="Scripts/twitter_follow.js"></script>
-                </div>
-                <div class="row" id="sponsoradwrap">
-                    <img class="sponsorad" src="Images/Sponsors/acehardware.png" width="160" height="130"/>
-                    <img class="sponsorad" src="Images/Sponsors/brandinghabit.png" width="160" height="130"/>
-                    <img class="sponsorad" src="Images/Sponsors/westusa.png" width="160" height="130"/>
-                    <img class="sponsorad" src="Images/Sponsors/joeflorida.png" width="160" height="117"/>
-                    <img class="sponsorad" src="Images/Sponsors/officemax.png" width="160" height="130"/>
-
+                    <div class="row" id="sponsoradwrap">
+                        <img class="sponsorad" src="Images/Sponsors/acehardware.png" width="160" height="130"/>
+                        <img class="sponsorad" src="Images/Sponsors/brandinghabit.png" width="160" height="130"/>
+                        <img class="sponsorad" src="Images/Sponsors/westusa.png" width="160" height="130"/>
+                        <img class="sponsorad" src="Images/Sponsors/joeflorida.png" width="160" height="117"/>
+                        <img class="sponsorad" src="Images/Sponsors/officemax.png" width="160" height="130"/>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
 </div>
 </body>
 <!-- Vendor libs -->
@@ -151,5 +101,9 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
 </html>
