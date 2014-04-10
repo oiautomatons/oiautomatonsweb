@@ -1,7 +1,10 @@
 # Copyright 2012 Digital Inspiration
 # http://www.labnol.org/
-
 import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+
+from google.appengine.dist import use_library
+use_library('django', '1.3')
 from google.appengine.ext.webapp import template
 import webapp2
 
