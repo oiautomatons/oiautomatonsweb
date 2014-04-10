@@ -1,3 +1,5 @@
+/*@import url("bootstrap.min.css");*/
+
 body.canvas {
 	background-color: #EFEEF3;
 }
@@ -11,14 +13,8 @@ body.canvas {
 	border-radius: 4px;
 	overflow:hidden;
 }
-#biopage {
-	height: 100%;
-	width: 100%;
-	margin: auto;
-	background-color: white;
-	border-radius: 4px;
-	overflow: hidden;
-}
+
+
 #title_bar {
 	height: 150px;
 	/* width: 100%; */

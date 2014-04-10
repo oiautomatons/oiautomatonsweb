@@ -1,23 +1,20 @@
 # Copyright 2012 Digital Inspiration
 # http://www.labnol.org/
-
 import os
-from google.appengine.ext import webapp
-from google.appengine.ext.webapp import util
+os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+
+from google.appengine.dist import use_library
+use_library('django', '1.3')
 from google.appengine.ext.webapp import template
+import webapp2
 
-class MainHandler(webapp.RequestHandler):
-  def get (self, q):
-    if q is None:
-      q = 'index.html'
 
-    path = os.path.join (os.path.dirname (__file__), q)
-    self.response.headers ['Content-Type'] = 'text/html'
-    self.response.out.write (template.render (path, {}))
+class MainPage(webapp2.RequestHandler):
+    def get(self, q):
+        if q is None:
+            q = 'index.html'
+            path = os.path.join(os.path.dirname(__file__), q)
+            self.response.headers['Content-Type'] = 'text/html'
+            self.response.out.write(template.render(path, {}))
 
-def main ():
-  application = webapp.WSGIApplication ([('/(.*html)?', MainHandler)], debug=True)
-  util.run_wsgi_app (application)
-
-if __name__ == '__main__':
-  main ()
+app = webapp2.WSGIApplication([('/(.*html)?', MainPage)], debug=True)
