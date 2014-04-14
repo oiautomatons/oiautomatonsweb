@@ -35,5 +35,10 @@ automatonsApp.config(function ($routeProvider){
                     controller:'SimpleController',
                     templateUrl:'partials/construction.html'
                 })
+            .when('/donationlevels',
+                {
+                    controller:'SimpleController',
+                    templateUrl:'partials/donationlevels.html'
+                })
             .otherwise({ redirectTo: '/'});
 });
