@@ -2,48 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977386c9-76f7-4d46-b266-5bf45acbaa7a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/2012bios.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/2013bios.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/construction.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Google_App_Engine_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/oiautomatonsweb.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2012-memberbios.html" afterPath="$PROJECT_DIR$/oldhtml/2012-memberbios.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/2013-memberbios.html" afterPath="$PROJECT_DIR$/oldhtml/2013-memberbios.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/aboutus.html" afterPath="$PROJECT_DIR$/oldhtml/aboutus.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/construction.html" afterPath="$PROJECT_DIR$/oldhtml/construction.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/favicon.ico" afterPath="$PROJECT_DIR$/Images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gnome-robots2.ico" afterPath="$PROJECT_DIR$/Images/gnome-robots2.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gnome-robots2_ipad.png" afterPath="$PROJECT_DIR$/Images/gnome-robots2_ipad.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gnome-robots2_iphone.png" afterPath="$PROJECT_DIR$/Images/gnome-robots2_iphone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/robot.ico" afterPath="$PROJECT_DIR$/Images/robot.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.joyride.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.clearing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.orbit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/humans.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.interchange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.abide.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/modernizr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.equalizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.reveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.magellan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.topbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/foundation/foundation.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendor/fastclick.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/main.html" afterPath="$PROJECT_DIR$/partials/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
     </list>
     <ignored path="oiautomatonsweb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +58,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/oiautomatonsweb$main.coverage" NAME="main Coverage Results" MODIFIED="1396475890030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oiautomatonsweb$main.coverage" NAME="main Coverage Results" MODIFIED="1397169446590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -68,35 +71,7 @@
     <favorites_list name="oiautomatonsweb" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="7" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-4.375" vertical-offset="240" max-vertical-offset="2400">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="17" selection-start="473" selection-end="473" vertical-scroll-proportion="0.33564815" vertical-offset="0" max-vertical-offset="1296">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -116,19 +91,20 @@
       <list>
         <option value="$PROJECT_DIR$/2013-memberbios.html" />
         <option value="$PROJECT_DIR$/partials/bios.html" />
-        <option value="$PROJECT_DIR$/partials/main.html" />
         <option value="$PROJECT_DIR$/partials/construction.html" />
         <option value="$PROJECT_DIR$/partials/about.html" />
         <option value="$PROJECT_DIR$/partials/2012bios.html" />
         <option value="$PROJECT_DIR$/app/controller.js" />
         <option value="$PROJECT_DIR$/app/controllers/controller.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/partials/main.html" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
+        <option value="$PROJECT_DIR$/partials/donations.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -163,40 +139,13 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="oiautomatonsweb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oiautomatonsweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ev-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oiautomatonsweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ev-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -225,7 +174,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,11 +196,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/js" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/oldhtml" />
@@ -469,8 +418,26 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+    <configuration default="false" name="oiautomatonsweb" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="oiautomatonsweb" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="App Engine server.oiautomatonsweb" />
+      <item index="1" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -505,23 +472,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12470215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12629071" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39930555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33072916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006042" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -545,31 +512,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4372" column="10" selection-start="86683" selection-end="86692" vertical-scroll-proportion="0.0" vertical-offset="65489" max-vertical-offset="86865" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="102" selection-start="1786" selection-end="1786" vertical-scroll-proportion="0.0" vertical-offset="222" max-vertical-offset="2325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="45" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="2160" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
@@ -701,11 +643,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="150" selection-end="150" vertical-scroll-proportion="0.1627907" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="150" selection-end="150" vertical-scroll-proportion="0.1627907" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../webapp2/birthDB.py">
@@ -738,68 +680,118 @@
         <state line="1" column="21" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1005" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="67" selection-start="109" selection-end="109" vertical-scroll-proportion="0.06696428" vertical-offset="0" max-vertical-offset="672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="258" selection-end="258" vertical-scroll-proportion="0.20089285" vertical-offset="0" max-vertical-offset="672" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5295" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Images/oi-automatons_banner5.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/humans.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="42" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.123839006" vertical-offset="1030" max-vertical-offset="29355" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="444" selection-end="444" vertical-scroll-proportion="0.2970297" vertical-offset="0" max-vertical-offset="1111" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="95655">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/js/foundation/foundation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5286" column="28" selection-start="111312" selection-end="111312" vertical-scroll-proportion="0.45898616" vertical-offset="78792" max-vertical-offset="86865" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9045" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ev-test/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ev-test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="20" selection-start="2059" selection-end="2092" vertical-scroll-proportion="0.36320755" vertical-offset="318" max-vertical-offset="2325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ev-test/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="222" selection-end="1337" vertical-scroll-proportion="0.4050405" vertical-offset="0" max-vertical-offset="2385" />
+        <state line="21" column="0" selection-start="254" selection-end="1297" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2385" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.2004717" vertical-offset="0" max-vertical-offset="1272" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ev-test/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="15" column="67" selection-start="508" selection-end="508" vertical-scroll-proportion="0.1736111" vertical-offset="0" max-vertical-offset="1296">
+          <folding>
+            <element signature="e#62#71#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="38" selection-end="38" vertical-scroll-proportion="0.011574074" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="67" selection-start="109" selection-end="109" vertical-scroll-proportion="0.034722224" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/donationlevels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="1025" selection-end="1025" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="585">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="12" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.42824075" vertical-offset="0" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="1" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.37037036" vertical-offset="0" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="7" selection-start="1303" selection-end="1303" vertical-scroll-proportion="-4.375" vertical-offset="240" max-vertical-offset="2400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="17" selection-start="473" selection-end="473" vertical-scroll-proportion="0.33564815" vertical-offset="0" max-vertical-offset="1296">
+        <state line="39" column="85" selection-start="2039" selection-end="2039" vertical-scroll-proportion="0.3773585" vertical-offset="105" max-vertical-offset="1710">
           <folding />
         </state>
       </provider>
