@@ -29,5 +29,13 @@
     margin-right: 0em;
 }
 #sponsoradwrap {
+    position: relative;
     height: 130px;
+    width: 160px;
+}
+.sponsorad {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

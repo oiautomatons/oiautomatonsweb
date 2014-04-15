@@ -125,7 +125,7 @@ div.biobox {
 	margin: .5em;
 	width: 30%; /*522 for two column, 340 for 3 column*/
 }
-#sponsoradwrap {
+#sponsorad {
 	position:relative;
 	width: 160px;
 	height: 130px;
