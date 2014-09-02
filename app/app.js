@@ -20,6 +20,11 @@ automatonsApp.config(function ($routeProvider){
                     controller:'SimpleController',
                     templateUrl:'partials/construction.html'
                 })
+            .when('/2014bios',
+                {
+                    controller:'SimpleController',
+                    templateUrl:'partials/2014bios.html'
+                })
             .when('/2013bios',
                 {
                     controller:'SimpleController',
