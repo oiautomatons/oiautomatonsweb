@@ -5,4 +5,5 @@
   })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-47832153-1', 'oi-automatons.appspot.com');
+  ga('require', 'displayfeatures');
   ga('send', 'pageview');
