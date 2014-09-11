@@ -15,6 +15,14 @@ handlers:
 - url: /robots.txt
   static_files: robots.txt
   upload: robots.txt
+  
+- url: /test.txt
+  static_files: test.txt
+  upload: test.txt
+  
+- url: /google5c9cacb3aed3ae1a.html
+  static_files: google5c9cacb3aed3ae1a.html
+  upload: 
 
 - url: /partials
   static_dir: partials
