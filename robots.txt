@@ -2,3 +2,9 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+Disallow: /partials/
+Disallow: /test.txt
+Disallow: /google5c9cacb3aed3ae1a.html
+
+User-agent: Googlebot-Image
+Disallow: /Images/Sponsors/
