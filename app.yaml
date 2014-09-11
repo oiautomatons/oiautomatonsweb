@@ -22,7 +22,7 @@ handlers:
   
 - url: /google5c9cacb3aed3ae1a.html
   static_files: google5c9cacb3aed3ae1a.html
-  upload: 
+  upload: google5c9cacb3aed3ae1a.html
 
 - url: /partials
   static_dir: partials
