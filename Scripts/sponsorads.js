@@ -1,1 +1,0 @@
-$(window).load(function(){var e={init:function(){var e=1e3;var t=5e3;var n=2500;var r=$(".sponsorad").length;var i=0;$(".sponsorad").eq(i).fadeIn(e);var s=setInterval(function(){$(".sponsorad").eq(i).fadeOut(n);if(i==r-1){i=0}else{i++}$(".sponsorad").eq(i).fadeIn(n)},t)}};e.init()})

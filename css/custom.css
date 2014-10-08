@@ -28,12 +28,12 @@
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
     margin-right: 0em;
 }
-#sponsoradwrap {
+#sponsorwrap {
     position: relative;
     height: 130px;
     width: 160px;
 }
-.sponsorad {
+.sponsor {
     display: none;
     position: absolute;
     top: 0;

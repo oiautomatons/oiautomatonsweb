@@ -125,14 +125,14 @@ div.biobox {
 	margin: .5em;
 	width: 30%; /*522 for two column, 340 for 3 column*/
 }
-#sponsorad {
+#sponsor {
 	position:relative;
 	width: 160px;
 	height: 130px;
 	margin: 8px;
 	float: right;
 }
-img.sponsorad {
+img.sponsor {
 	display: none;
 	position: absolute;
 	top:0;
