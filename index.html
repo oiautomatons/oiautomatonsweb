@@ -79,15 +79,16 @@
                 <!-- Placeholder for views -->
                 <div class="small-9 medium-9 large-9 column" id="maincontent" data-ng-view=""></div>
                 <div class="small-3 medium-3 large-3 columns" id="rightcontent" id="socialbox">
-                    <p id="sociallabel">Social Media</p>
-                    <div id="facebook" class="fb-like" data-href="https://www.facebook.com/oiautomatons"
-                             data-width="120"
-                             data-layout="button_count" data-action="like" data-show-faces="false"
-                             data-share="true"></div>
-                    <a id="twitter" href="https://twitter.com/oiautomatons" class="twitter-follow-button"
-                           data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow
-                            @oiautomatons</a>
-                    <script src="Scripts/twitter_follow.js"></script>
+                    <div class="row" id="socialbox">
+                        <p id="sociallabel">Social Media</p>
+                        <!-- START SOCIAL MEDIA WIDGET --><ul id="socialbar"><li id="facebook"><a target="_blank" href="http://www.facebook.com/oiautomatons">
+                        <IMG src="Images/Social/facebook.png"></a></li><li id="twitter"><a target="_blank" href="http://twitter.com/oiautomatons">
+                        <IMG src="Images/Social/twitter.png"></a></li><li id="Googleplus"><a target="_blank" href="https://plus.google.com/u/0//b/106736031374290010643">
+                        <IMG src="Images/Social/googleplus.png"></a></li></ul>
+                        <style>#socialbar img {border:0px;}#socialbar li img {width:36px; height:36px;}#socialbar li a:hover {position:relative;top:2px;}#socialbar{padding:0px;list-style: none outside none; margin:0px; position: static;}#socialbar li {display:inline;padding-right:2px;}#socialbar{width:180px;text-align:center;}</style>
+                        <!-- END SOCIAL MEDIA WIDGET -->
+                    </div>
+                    
                     <div class="row" id="sponsorwrap">
                         <img class="sponsor" src="Images/Sponsors/amc.png" width="160" height="130"/>
                         <img class="sponsor" src="Images/Sponsors/aaahardwood.png" width="160" height="130"/>
