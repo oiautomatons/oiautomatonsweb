@@ -99,12 +99,12 @@ body.canvas {
 	max-width: 90%;
 	overflow: hidden;
 }
-img.biopic {
+.biopic {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 160px;
-	width: 160px;
+	width: 240px;
 }
 .biotext {
 	text-align: center;
