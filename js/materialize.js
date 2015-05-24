@@ -984,6 +984,7 @@ $(document).ready(function(){
   $('.materialboxed').materialbox();
   $(".dropdown-button").dropdown({ hover: true });
   $(".button-collapse").sideNav();
+  $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
 });
 
 }( jQuery ));

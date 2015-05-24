@@ -12,8 +12,9 @@
     </head>
     <body>
         <! Content >
-        <div class="container">
-            <div class="row">
+    <header>
+        <nav>
+        <div class="row">
             <ul id=DonateDropdown class="dropdown-content">
                 <li><a href="#/donate">Why Donate</a></li>
                 <li><a href="#/wishlist">Wish List</a></li>
@@ -35,7 +36,7 @@
             <nav>
             <div class="nav-wrapper grey darken-2">
                 <div class="col s12">
-                <a href="#/" class="brand-logo">OI Automatons</a>
+                <a href="#/" class="brand-logo">Odyssey Automatons</a>
                 <a href="#" data-activates="mobileMenu" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a class="dropdown-button" href="#/donate" data-activates="DonateDropdown">Donations<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
@@ -56,12 +57,17 @@
                 </div>
             </div>
             </nav>
+    </header>
+    <main>
+        <div class="container">
             <! Page Content >
             <div class="row">
                 <div class="col s12 m12 l9" id="maincontent" data-ng-view="">
                     <! Place Holder for Views >
                 </div>
-                <div class="col l3 hide-on-med-and-down">
+                <div class="col l3 hide-on-med-and-down center">
+                    <div class="pinned" >
+                    <div class="card-panel grey lighten-5">
                     <h5 class="center-align">Social Media</h5>
                     <div>
                         <!-- START SOCIAL MEDIA WIDGET --><ul id="socialbar"><li id="facebook"><a target="_blank" href="http://www.facebook.com/oiautomatons">
@@ -74,7 +80,7 @@
                     <p></p>
                     <div class="divider"></div>
                     <h5 class="center-align">Sponsors</h5>
-                    <div id="sponsorwrap">
+                    <div class="z-depth-2" id="sponsorwrap">
                         <img class="sponsor" src="Images/Sponsors/amc.png" width="160" height="130"/>
                         <img class="sponsor" src="Images/Sponsors/aaahardwood.png" width="160" height="130"/>
                         <img class="sponsor" src="Images/Sponsors/anymoment.png" width="160" height="130"/>
@@ -94,10 +100,23 @@
                         <img class="sponsor" src="Images/Sponsors/sx.png" width="160" height="130"/>
                         <img class="sponsor" src="Images/Sponsors/wwz.png" width="160" height="130"/>
                     </div>
+                    </div>
+                    <img class="center" src="Images/oi_automation_atlas1_sqaure.png"/>
+                    </div>
                 </div>
             </div>
             </div>
         </div>
+    </main>
+    <footer class="page-footer grey darken-2">
+        <div class="footer-copyright grey darken-3">
+            <div class="container">
+                © Odyssey Automatons 2015
+                <a href="https://github.com/oiautomatons/oiautomatonsweb">GitHub</a>
+            </div>
+        </div>
+    </footer>
+        <! Footer >
         <!-- Vendor libs -->
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
         <!-- App libs -->
