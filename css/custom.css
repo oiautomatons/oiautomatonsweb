@@ -1,38 +1,9 @@
-@import url("foundation.css");
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif);
-
-#logoimage {
-
-}
-
-#teamname {
-    font-size: x-large;
-    margin-bottom: 0em;
-    text-align: -webkit-center;
-    font-family: "SANS-SERIF";
-    font-size-adjust: inherit;
-}
-
-#profile_image {
-
-}
-
-#title_bar {
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 25%, rgba(130,140,149,1) 49%, rgba(40,52,59,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(25%,rgba(255,255,255,1)), color-stop(49%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* IE10+ */
-    background: linear-gradient(to right,  rgba(255,255,255,1) 25%,rgba(130,140,149,1) 49%,rgba(40,52,59,1) 100%); /* W3C */
-    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
-    margin-right: 0em;
-}
 #sponsorwrap {
     position: relative;
     height: 130px;
     width: 160px;
 }
+
 .sponsor {
     display: none;
     position: absolute;

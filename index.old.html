@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="automatonsApp">
+<head>
+	<title>Odyssey Automatons</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+<div class="row">
+    <div class="column">
+        <div id="fb-root"></div>
+        <script src="Scripts/facebook_like.js"></script>
+        <div class="row" id="title_bar">
+            <div class="columns">
+                <div class="small-3 medium-3 large-3 column" id="profile_image"><a href="#/'"><img id="logoimage" class="visible-img"
+                                                                                 src="Images/oi_automation_atlas1_sqaure.png"></a>
+                </div>
+                <div class="small-9 medium-9 large-9 column">
+                    <p id="teamname">Odyssey Institute for Advanced International Studies<br>Automatons<br>FTC Team
+                        6174</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-12 large-12 column" role="navigation">
+                <nav class="top-bar" data-topbar>
+                    <ul class="title-area">
+                        <li class="name"></li>
+                        <li class="toggle-topbar menu-icon"><a href="#/">Menu</a></li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <ul class="left" id="menu">
+                        <li><a title="Home" href="#/">Home</a></li>
+                        <li class="has-dropdown">
+                            <a title="Donations" href="#/donate">Donations</a>
+                            <ul class="dropdown">
+                            	<li><a title="Why Donate" href="#/donate">Why Donate</a></li>
+                                <li><a title="Wish List" href="#/wishlist">Wish List</a></li>
+                                <li><a title="Donation Levels" href="#/donationlevels">Donation Levels</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"> <a title="Sponsors" href="#/2014sponsors">Sponsors</a>
+                        	<ul class="dropdown">
+                        		<li><a href="#/2014sponsors">2014-15 Sponsors</a></li>
+                        		<li><a href="#/2013sponsors">2013-14 Sponsors</a></li>
+                        	</ul>
+                        </li>
+                        <li class="has-dropdown">
+                            <a title="About" href="#/about">About<b class="caret"></b></a>
+                            <ul class="dropdown">
+                            	<li><a title="About Us" href="#/about">About Us</a></li>
+                                <li><a title="About FTC" href="http://www.usfirst.org/roboticsprograms/ftc">About FTC</a></li>
+                            </ul>
+                        </li>
+                        <li class="has-dropdown"><a href="#/2014bios">Bios</a>
+                            <ul class="dropdown">
+                            	<li class="has-dropdown"><a title="Team Bios" href="#/2014bios">Team Bios</a>
+                            		<ul class="dropdown">
+                            		    <li><a title="2014-15 Season" href="#/2014bios">2014-15 Season</a></li>
+                            			<li><a title="2013-14 Season" href="#/2013bios">2013-14 Season</a></li>
+                            			<li><a title="2012-13 Season" href="#/2012bios">2012-13 Season</a></li>
+                            		</ul>
+                            	</li>
+                            </ul>
+                        </li>
+                        <li><a title="Team Blog" href="http://oi-automatons.blogspot.com">Team Blog</a></li>
+                        <li><a title="Team Awards" href="#/awards">Team Awards</a></li>
+                    </ul>
+                    </section>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="small-12 medium-12 large-12 columns">
+                <!-- Placeholder for views -->
+                <div class="small-9 medium-9 large-9 column" id="maincontent" data-ng-view=""></div>
+                <div class="small-3 medium-3 large-3 columns" id="rightcontent" id="socialbox">
+                    <p></p>
+                    <div class="row" id="socialbox">
+                        <!-- START SOCIAL MEDIA WIDGET --><ul id="socialbar"><li id="facebook"><a target="_blank" href="http://www.facebook.com/oiautomatons">
+                        <IMG src="Images/Social/facebook.png"></a></li><li id="twitter"><a target="_blank" href="http://twitter.com/oiautomatons">
+                        <IMG src="Images/Social/twitter.png"></a></li><li id="Googleplus"><a target="_blank" href="https://plus.google.com/u/0//b/106736031374290010643">
+                        <IMG src="Images/Social/googleplus.png"></a></li></ul>
+                        <style>#socialbar img {border:0px;}#socialbar li img {width:36px; height:36px;}#socialbar li a:hover {position:relative;top:2px;}#socialbar{padding:0px;list-style: none outside none; margin:0px; position: static;}#socialbar li {display:inline;padding-right:2px;}#socialbar{width:180px;text-align:center;}</style>
+                        <!-- END SOCIAL MEDIA WIDGET -->
+                    </div>
+                    <p> </p>
+                    <div class="row" id="sponsorwrap">
+                        <img class="sponsor" src="Images/Sponsors/amc.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/aaahardwood.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/anymoment.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/brandinghabit.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/campro.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/cardinals.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/fluor.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/godaddy.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/hs.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/lowes.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/marrabrothers.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/officemax.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/phx-suns.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/springhill.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/statefarm.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/superrealty.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/sx.png" width="160" height="130"/>
+                        <img class="sponsor" src="Images/Sponsors/wwz.png" width="160" height="130"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!-- Vendor libs -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+<!-- App libs -->
+<script src="app/app.js"></script>
+<script src="app/controllers/controller.js"></script>
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+<script type="text/javascript" src="Scripts/sponsor.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+<script type="text/javascript" src="Scripts/analytics.js"></script>
+</html>
