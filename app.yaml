@@ -5,9 +5,9 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /(.*\.(gif|png|jpg|ico|js|css))
+- url: /(.*\.(gif|png|jpg|ico|js|css|eot|svg|ttf|woff|woff2))
   static_files: \1
-  upload: (.*\.(gif|png|jpg|ico|js|css))
+  upload: (.*\.(gif|png|jpg|ico|js|css|eot|svg|ttf|woff|woff2))
   http_headers:
     Cache-Control: public
     expiration: "12d"
