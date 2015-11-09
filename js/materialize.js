@@ -980,13 +980,6 @@ if ($) { Vel = $.Velocity } else { Vel = Velocity};
         });
 };
 
-$(document).ready(function(){
-  $('.materialboxed').materialbox();
-  $(".dropdown-button").dropdown({ hover: true });
-  $(".button-collapse").sideNav();
-  $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
-});
-
 }( jQuery ));
 ;(function ($) {
 
@@ -6021,6 +6014,13 @@ Picker.extend( 'pickadate', DatePicker )
 
   $(document).ready(function(){
     $('input, textarea').characterCounter();
+  });
+  
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+    $('.dropdown-button').dropdown({ hover: true });
+    $('.button-collapse').sideNav();
+    $('.pin-wrapper').pushpin({ top: $('nav').height(), bottom: $(document).height() - $("footer").height() });
   });
 
 }( jQuery ));
