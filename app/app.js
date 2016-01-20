@@ -20,6 +20,11 @@ automatonsApp.config(function ($routeProvider){
                     controller:'SimpleController',
                     templateUrl:'partials/construction.html'
                 })
+            .when('/2015bios',
+                {
+                    controller:'SimpleController',
+                    templateUrl:'partials/2015bios.html'
+                })
             .when('/2014bios',
                 {
                     controller:'SimpleController',
@@ -59,6 +64,11 @@ automatonsApp.config(function ($routeProvider){
        	 	{
        	 		controller:'SimpleController',
        	 		templateUrl:'partials/2014sponsors.html'
+       	 	})
+       	 	.when('/2015sponsors',
+       	 	{
+       	 		controller:'SimpleController',
+       	 		templateUrl:'partials/2015sponsors.html'
        	 	})
        	 	.when('/wishlist',
        	 	{

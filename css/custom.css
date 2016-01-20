@@ -14,3 +14,17 @@
 .pin-wrapper > div {
     width: 208px;
 }
+
+#socialMedia {
+    margin-top: 50px;
+}
+
+/* Asessing some damages done by Materialize. */
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
