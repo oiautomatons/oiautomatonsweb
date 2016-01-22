@@ -16,7 +16,11 @@
 }
 
 #socialMedia {
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+.fade-in {
+    opacity: 0;
 }
 
 /* Asessing some damages done by Materialize. */
